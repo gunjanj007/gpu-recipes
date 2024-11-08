@@ -20,7 +20,7 @@ volumes:
 
 workload:
   torchDistributedTarget: "/opt/NeMo/examples/nlp/language_modeling/megatron_gpt_pretraining.py"
-  gpus: 256
+  gpus: 32
 
 network:
   stack: "tcpxo"
