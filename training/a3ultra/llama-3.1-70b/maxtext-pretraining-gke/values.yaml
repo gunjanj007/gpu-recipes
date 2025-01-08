@@ -24,7 +24,7 @@ volumes:
 
 workload:
   gpus: 64 # This should be one of: {<= 8,  multiple of 8}
-  steps: 50
+  steps: 10
 
 network:
   ncclSettings:
