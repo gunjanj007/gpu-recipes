@@ -23,7 +23,7 @@ volumes:
       mountPath: /gcs
 
 workload:
-  gpus: 256 # This should be one of: {<= 8,  multiple of 8}
+  gpus: 64 # This should be one of: {<= 8,  multiple of 8}
   steps: 50
 
 network:
